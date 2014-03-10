@@ -1,0 +1,40 @@
+{
+  "name": "grunt-apimocker",
+  "description": "Runs apimocker server to return mock service responses to your front end.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gstroup/grunt-apimocker",
+  "author": {
+    "name": "Greg Stroup",
+    "email": "gstroup@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gstroup/grunt-apimocker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gstroup/grunt-apimocker/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gstroup/grunt-apimocker/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "apimocker": ">= 0.1.7"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin", "apimocker"
+  ]
+}
