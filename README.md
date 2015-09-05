@@ -25,6 +25,7 @@ In your project's Gruntfile, add a section named `apimocker` to the data object 
 ```js
 grunt.initConfig({
   apimocker: {
+    wait : false, 
     options: {
       configFile: 'your-config.json'
     }
@@ -35,7 +36,10 @@ grunt.initConfig({
 ### Options
 
 #### options.configFile
-This is the only option.  Set the path to your apimocker config.json file.  Path can be absolute, or relative to the Gruntfile.
+Set the path to your apimocker config.json file.  Path can be absolute, or relative to the Gruntfile.
+
+#### options.wait
+Set the no exit mode. If wait is false, then the plugin depends on another plugin with no exit mode. If wait is true, then it will not exit after running.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
