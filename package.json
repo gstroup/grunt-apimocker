@@ -1,7 +1,7 @@
 {
   "name": "grunt-apimocker",
   "description": "Runs apimocker server to return mock service responses to your front end.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/gstroup/grunt-apimocker",
   "author": {
     "name": "Greg Stroup",
